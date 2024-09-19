@@ -1,0 +1,39 @@
+{
+   "books":
+      [
+         {
+            "title": "Kniha 1",
+            "author": "Janko Hrasko",
+            "release": "2005",
+            "available": "1"
+         },
+         {
+            "title": "Kniha 2",
+            "author": "Janko Hrasko",
+            "release": "2018",
+            "available": "0"
+         },
+         {
+            "title": "Kniha 2",
+            "author": "Janko Hrasko",
+            "release": "2018",
+            "available": "0"
+         }
+      ],
+   "users":
+      [
+         {
+            "name": "John Doe",
+            "phone": "0905 105 615",
+            "email": "j.doe@gmail.com",
+            "borrowed":
+            [
+               {
+                  "title": "Kniha 1",
+                  "hasFrom": "1-9-2024",
+                  "return": "18-9-2024"
+               }
+            ]
+         }
+      ]
+}
